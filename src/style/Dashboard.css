@@ -1,0 +1,41 @@
+/* Main Container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+  .dashboard-container > :first-child {
+    flex-shrink: 0; 
+  }
+  
+  /* Main Dashboard Layout */
+  .dashboard {
+    display: flex;
+    flex: 1; 
+    background-color: #f9f9f9;
+  }
+  
+  /* Sidebar Column */
+  .sidebar-column {
+    flex: 1;
+    max-width: 300px; 
+    margin-left: 107px;
+    margin-top: 21px;
+  }
+  
+  /* Content Column */
+  .content-column {
+    flex: 3; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Footer */
+  .dashboard-container > :last-child {
+    flex-shrink: 0; 
+  }
+  

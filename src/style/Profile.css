@@ -1,0 +1,67 @@
+.profile-form-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.profile-form {
+  padding: 40px;
+  width: 50%;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+.container-form {
+  margin: 0px auto;
+  width: 100%;
+  background: white;
+  float: left;
+  padding: 40px;
+  border-radius: 12px;
+}
+.profile-form-group {
+  margin-bottom: 20px;
+}
+
+.profile-form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.profile-form-group .required {
+  color: #ff4081;
+}
+
+.profile-form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.profile-form-group input::placeholder {
+  color: #bbb;
+}
+
+.save-btn {
+  display: block;
+  width: 100%;
+  background-color: #ff4081;
+  color: white;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #ff4081;
+}

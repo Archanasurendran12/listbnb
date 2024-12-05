@@ -1,0 +1,146 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Login Page */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Container for login content */
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 964px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3%;
+}
+
+/* Login form section */
+.login-form-section {
+  flex: 1;
+  /* padding: 40px; */
+}
+
+.login-form-section h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.login-form-group .icon {
+  color: #888;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.login-form-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.loginpage-btn {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.loginpage-btn:hover {
+  background-color: #e0356b;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* Info Section */
+.login-info-section {
+  /* flex: 1; */
+  text-align: center;
+  padding: 40px;
+  background-color: #fdf3f5;
+  border-radius: 12px;
+}
+
+.login-info-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.login-info-section p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.login-info-section strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.signup-btn {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: #e0356b;
+}
+.section {
+  flex: 1;
+  text-align: center;
+  /* padding: 40px; */
+  border-radius: 12px;
+  padding-bottom: 5%;
+}
+.container-main {
+  width: 40%;
+  text-align: center;
+}
+.text-data {
+    font-size: smaller;
+    color: #888;
+}
+.image-banner {
+    padding-bottom: 9%;
+}

@@ -1,0 +1,60 @@
+.ad-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .ad-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ad-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .ad-details {
+    flex-grow: 1;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .ad-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  
+  .view-btn,
+  .edit-ad-btn {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 22px;
+    cursor: pointer;
+  }
+  
+  .view-btn {
+    background: white;
+    border: 1px solid #dfdfdf
+  }
+  
+  .edit-ad-btn {
+    background-color: #ff4081;
+    color: #fff;
+  }
+  
+  .edit-ad-btn:hover {
+    background-color: #ff4081;
+  }
